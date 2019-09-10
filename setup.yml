@@ -1,0 +1,9 @@
+- name: Setup ELK stack 
+  hosts: localhost 
+  become: yes 
+  vars:
+    STACK_ON_SINGLE_SERVER: "yes"
+  roles:
+    - elastic
+    - kibana
+    - logstash
