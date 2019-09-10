@@ -15,7 +15,7 @@
     block: |
       http.host: 0.0.0.0
       http.port: 9200
-  when: "{{STACK_ON_SINGLE_SERVER}}" == "yes"
+  when: STACK_ON_SINGLE_SERVER = "yes"
 
 - name: Start elasticsearch 
   service:
