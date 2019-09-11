@@ -1,4 +1,4 @@
 - name: Copy Logstash Repo
   copy:
     src: logstash.repo
-    dest:
+    dest: /etc/yum.repos.d/logstash
