@@ -20,3 +20,5 @@
 - name: Start elasticsearch 
   service:
     name: elasticsearch
+    state: started
+    
