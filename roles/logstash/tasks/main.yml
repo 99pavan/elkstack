@@ -4,4 +4,8 @@
     dest: /etc/yum.repos.d/logstash.repo
 
 - name: Install Java 
-  p
+  yum:
+    name: java 
+    state: installed 
+
+- name
