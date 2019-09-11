@@ -11,4 +11,5 @@
 - name: Install Logstash 
   yum:
     name: logstash 
-    state
+    state: installed 
+
