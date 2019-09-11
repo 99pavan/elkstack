@@ -15,4 +15,6 @@
 
 - name: Start Logstash 
   service:
-    name:
+    name: logstash 
+    state: started 
+    enabled: yes
