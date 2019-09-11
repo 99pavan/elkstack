@@ -7,6 +7,14 @@
   package:
     name: kibana 
 
+- name: Update kibana config 
+  blockinfile:
+    path: /etc/kibana/kibana.yml
+    insertafter: "^#server.port: 5601"
+    block: |
+      server.port: 5601
+      server.host: 0.0.0.0
+
 - name: Start Kibana 
   service:
     name: kibana
