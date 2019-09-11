@@ -6,4 +6,4 @@
   roles:
     - elastic
     - kibana
-    #- logstash
+    - logstash
