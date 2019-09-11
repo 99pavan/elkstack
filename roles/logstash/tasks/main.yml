@@ -9,4 +9,5 @@
     state: installed 
 
 - name: Install Logstash 
-  
+  yum:
+    
