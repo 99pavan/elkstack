@@ -18,4 +18,4 @@
 - name: Start Kibana 
   service:
     name: kibana
-    state: started 
+    state: restarted 
