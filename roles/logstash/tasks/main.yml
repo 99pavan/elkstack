@@ -13,4 +13,6 @@
     name: logstash 
     state: installed 
 
-- name: 
+- name: Start Logstash 
+  service:
+    name:
