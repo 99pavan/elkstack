@@ -21,4 +21,4 @@
   service:
     name: elasticsearch
     state: started
-    
+    enabled: yes
