@@ -1,4 +1,4 @@
 - name: Copy Logstash Repo
   copy:
-    src: 
+    src: logstash.repo
     dest:
